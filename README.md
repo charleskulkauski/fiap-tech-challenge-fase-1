@@ -1,7 +1,6 @@
-# FIAP - Tech Challenge — Fase 1
+# FIAP - Tech Challenge - Fase 1
 
-## Título
-**Modelo preditivo para classificação de tumores (Tech Challenge — Fase 1)**
+## **Modelo preditivo para classificação de tumores de câncer de mama**
 
 ## Resumo
 Este repositório contém um notebook Jupyter (`Tech_Challenge_Fase1.ipynb`) que desenvolve um pipeline completo para classificação de tumores utilizando um dataset tabular (arquivo `data/data.csv`). O objetivo do projeto é comparar técnicas de aprendizado de máquina clássicas para identificar tumores malignos e benignos, realizar avaliação robusta dos modelos e apresentar análises exploratórias e visuais que suportam as decisões de modelagem.
