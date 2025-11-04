@@ -1,0 +1,4 @@
+Links úteis:
+Vídeo Youtube: https://youtu.be/pUEwZw9QNT0
+Dataset: https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data
+Repositório GitHub: https://github.com/charleskulkauski/fiap-tech-challenge-fase-1
