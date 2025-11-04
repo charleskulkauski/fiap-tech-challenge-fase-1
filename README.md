@@ -10,8 +10,6 @@ Este repositório contém um notebook Jupyter (`Tech_Challenge_Fase1.ipynb`) que
 FIAP-TECH-CHALLENGE-FASE-1/
 ├─ data/
 │  ├─ data.csv
-│  ├─ ponto_concavo_massa_tumoral_explicado.jpeg
-│  └─ random_forest_tree_plot.png
 ├─ Tech_Challenge_Fase1.ipynb
 ├─ README.md
 ├─ LICENSE
@@ -51,20 +49,18 @@ Construir e avaliar modelos de classificação binária que preveem se um tumor 
 
 6. **Avaliação**  
    - Métricas: matriz de confusão, classification report (precision, recall, f1-score), acurácia.  
-   - Resultados registrados no notebook indicam uma acurácia em torno de **0.89** (dependendo da partição e do modelo), conforme saída do `classification_report` presente no notebook.
+   - Resultados registrados no notebook indicam uma acurácia superior a **0.89**, conforme saída do `classification_report` presente no notebook.
    - Visualizações: plot da árvore do Random Forest (`random_forest_tree_plot.png`) e outras figuras explicativas.
 
 ## Resultados (síntese)
 - Modelos comparados: KNN, SVM, Random Forest.
 - Melhores práticas aplicadas: validação cruzada, `GridSearchCV` para tuning, uso de `classification_report` e matriz de confusão para avaliação detalhada por classe.
-- Métrica destacada: acurácia observada ~ **0.89** em avaliação reportada no notebook (veja célula que imprime o `classification_report`).
-- Observações: o notebook contém visualizações e uma árvore do Random Forest para interpretação.
+- Métrica destacada: F1-Score.
 
 ## Principais arquivos gerados
 - `Tech_Challenge_Fase1.ipynb` — notebook com todo o pipeline (EDA, pré-processamento, modelagem, avaliação).
 - `data/data.csv` — base de dados utilizada.
-- `data/random_forest_tree_plot.png` — figura da árvore gerada a partir do modelo Random Forest.
-- `data/ponto_concavo_massa_tumoral_explicado.jpeg` — figura explicativa de features.
+- `Imagens salvas das análises geradas.
 
 ## Como reproduzir (instruções)
 1. Criar e ativar um ambiente virtual (recomendado):
